@@ -1,6 +1,6 @@
 # Usage:
 
->> >>  `python3 StartSendSms.py`
+>>>>`python3 StartSendSms.py`
 
 
 
@@ -32,7 +32,7 @@ Messages are all sent from 1 number. So by blocking this 1 number you block all 
 
 # Example Usage:
 
-![](/imgs/test.jpg)
+![](/pic/test.jpg)
 
 
 
