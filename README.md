@@ -61,7 +61,7 @@ Messages are all sent from 1 number. So by blocking this 1 number you block all 
 
 #### و باید دستور ارسالی به لینک رو که باز هم از سایت مورد نظر به دست اوردیم با داده زیر جابه جا کنیم 
 
-     mydata = <{"cellphone": "+98" + phoneNumber}>
+     mydata = {"cellphone": "+98" + phoneNumber}
      
      
      
