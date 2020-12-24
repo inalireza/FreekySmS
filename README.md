@@ -23,6 +23,12 @@ FreekySmS Iran Used
 2. Pip
 3. TQDM Python module (`pip3 install tqdm`)
 
+ #### If for any reason you can not use pip, you can use the following command Linux (Ubuntu)
+ 
+        sudo apt-get install python3-tqdm
+        
+
+        
 
 
 
@@ -37,6 +43,14 @@ Messages are all sent from 1 number. So by blocking this 1 number you block all 
 
 # Farsi Help
 
+برای استفاده باید لایبری های زیر وپایتون رو نصب کنید 
+
+1. Python 3
+2. Pip
+3. TQDM Python module (`pip3 install tqdm`)
+
+
+
 سرور ارسالی در این برنامه بر روی سرور مشخصی که فقط در ایران با شماره های ایران کار میکنه 
 
 برای استفاذه شما باید لینکی که از سایت مورد نظر به دست میارید رو با لینک زیر در کد برنامه جایگزین کنید
@@ -48,4 +62,10 @@ Messages are all sent from 1 number. So by blocking this 1 number you block all 
 و باید دستور ارسالی به لینک رو که باز هم از سایت مورد نظر به دست اوردیم با داده زیر جابه جا کنیم 
 
      mydata = {"cellphone": "+98" + phoneNumber}
+     
+     
+     
+ اگه به هر دلیلی از pip نمیتونید استفاده کنید از دستور زیر تر لینوکس (اوبنتو) میتونید استفاده کنید
+
+          sudo apt-get install python3-tqdm
 
