@@ -43,7 +43,7 @@ Messages are all sent from 1 number. So by blocking this 1 number you block all 
 
 # Farsi Help
 
-#### برای استفاده باید لایبری های زیر وپایتون رو نصب کنید 
+#### برای استفاده باید لایبری های زیر و پایتون رو نصب کنید 
 
 1. Python 3
 2. Pip
@@ -55,17 +55,17 @@ Messages are all sent from 1 number. So by blocking this 1 number you block all 
 
 برای استفاذه شما باید لینکی که از سایت مورد نظر به دست میارید رو با لینک زیر در کد برنامه جایگزین کنید
 
-#### در اینجا ما یرور های اسنپ رو استفاده کردیم 
+#### در اینجا ما سرور های اسنپ رو استفاده کردیم 
 
     urlsend = "https://app.snapp.taxi/api/api-passenger-oauth/v2/otp"
 
 #### و باید دستور ارسالی به لینک رو که باز هم از سایت مورد نظر به دست اوردیم با داده زیر جابه جا کنیم 
 
-     mydata = {"cellphone": "+98" + phoneNumber}
+     mydata = <{"cellphone": "+98" + phoneNumber}>
      
      
      
-#### اگه به هر دلیلی از pip  نمیتونید استفاده کنید از دستور زیر تر لینوکس (اوبنتو) میتونید استفاده کنید
+#### اگه به هر دلیلی از pip  نمیتونید استفاده کنید از دستور زیر در لینوکس (اوبنتو)  استفاده کنید
 
           sudo apt-get install python3-tqdm
 
