@@ -1,6 +1,9 @@
 from tqdm import tqdm
+from colorama import Fore, init 
 import requests
-print("""
+init(autoreset=True)
+
+print('\033[32m' """
 
 
                                                       _    _             
@@ -10,22 +13,23 @@ print("""
      | | | |  __/ |   \ V /  __/      | | | (_| | (__|   <| | | | | (_| |
      |_| |_|\___|_|    \_/ \___|      |_|  \__,_|\___|_|\_\_|_| |_|\__, |
                                                                     __/ |
-                                                                   |___/ 
- 
-
-
-
-    ____ _  _ ____    ___  ____ _  _ ___  ____ ____    _ ____ ____ _  _ _ 
-    [__  |\/| [__     |__] |  | |\/| |__] |___ |__/    | |__/ |__| |\ | | 
-    ___] |  | ___]    |__] |__| |  | |__] |___ |  \    | |  \ |  | | \| | 
-                                                                          
-
+                                                                   |___/  """)
+print('\033[37m' """
+             ____ _  _ ____    ___  ____ _  _ ___  ____ ____    
+             [__  |\/| [__     |__] |  | |\/| |__] |___ |__/    
+             ___] |  | ___]    |__] |__| |  | |__] |___ |  \    
+ """)                                                                         
+print('\033[31m' """
+                          _ ____ ____ _  _ _ 
+                          | |__/ |__| |\ | | 
+                          | |  \ |  | | \| |
 
        
  
 """)
 
 phoneNumber = input("Enter phone number +98 0:")
+
 phoneNumber = str(phoneNumber)
 mydata = {"cellphone": "+98" + phoneNumber}
 urlsend = "https://app.snapp.taxi/api/api-passenger-oauth/v2/otp"
