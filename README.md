@@ -21,7 +21,11 @@ FreekySmS Iran Used
 
 1. Python 3
 2. Pip
-3. TQDM Python module (`pip3 install tqdm`)
+3. TQDM Python module (`pip install tqdm`)
+4. colorama (`pip install tqdm`)
+5. requests(`pip install tqdm`)
+
+or python -m pip install ("Libray Name")
 
  #### If for any reason you can not use pip, you can use the following command Linux (Ubuntu)
  
@@ -50,8 +54,8 @@ Messages are all sent from 1 number. So by blocking this 1 number you block all 
 3. TQDM Python module (`pip3 install tqdm`)
 4. colorama 
 5. requests
-
-
+اگه ارور وجود نداشتن pip زد تو لینوکس از دستپر زیر استفاده کنید
+ or python -m pip install ("Libray Name")
 
  سرور ارسالی در این برنامه بر روی سرور مشخصی که فقط در ایران با شماره های ایران کار میکنه 
 
