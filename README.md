@@ -48,6 +48,8 @@ Messages are all sent from 1 number. So by blocking this 1 number you block all 
 1. Python 3
 2. Pip
 3. TQDM Python module (`pip3 install tqdm`)
+4. colorama 
+5. requests
 
 
 
